@@ -1,0 +1,2 @@
+Full Name,Phone Number,University ID,Email,Password,Gender,College,Major
+Sajeda Khassawneh,0777200000,2020101010,sajeda123@gmail.com,Sj@123456789,Female,Information tecgnology,Computer science

@@ -1,0 +1,367 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD503D4A-59D3-48C0-A0A6-99FCE3CE2A7F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Group5</RootNamespace>
+    <AssemblyName>Group5</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44380</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Habib\AboutPage.aspx" />
+    <Content Include="Habib\animates.css" />
+    <Content Include="Habib\bootstrap.css" />
+    <Content Include="Habib\Contact.aspx" />
+    <Content Include="Habib\css\animate.min.css" />
+    <Content Include="Habib\css\bootstrap.min.css" />
+    <Content Include="Habib\css\bxslider.css" />
+    <Content Include="Habib\css\et-line-font.css" />
+    <Content Include="Habib\css\font-awesome.min.css" />
+    <Content Include="Habib\css\nivo-lightbox.css" />
+    <Content Include="Habib\css\nivo_themes\default\close%402x.png" />
+    <Content Include="Habib\css\nivo_themes\default\close.png" />
+    <Content Include="Habib\css\nivo_themes\default\default.css" />
+    <Content Include="Habib\css\nivo_themes\default\loading%402x.gif" />
+    <Content Include="Habib\css\nivo_themes\default\loading.gif" />
+    <Content Include="Habib\css\nivo_themes\default\next%402x.png" />
+    <Content Include="Habib\css\nivo_themes\default\next.png" />
+    <Content Include="Habib\css\nivo_themes\default\prev%402x.png" />
+    <Content Include="Habib\css\nivo_themes\default\prev.png" />
+    <Content Include="Habib\css\owl.carousel.css" />
+    <Content Include="Habib\css\owl.theme.css" />
+    <Content Include="Habib\css\style.css" />
+    <Content Include="Habib\esting.js" />
+    <Content Include="Habib\fonts\et-line.svg" />
+    <Content Include="Habib\fonts\fontawesome-webfont.svg" />
+    <Content Include="Habib\Habib1.aspx" />
+    <Content Include="Habib\Home.aspx" />
+    <Content Include="Habib\Images\book-1052014_640.jpg" />
+    <Content Include="Habib\Images\book-6957870_640.jpg" />
+    <Content Include="Habib\Images\books-3946080_640 %282%29.jpg" />
+    <Content Include="Habib\Images\open-book-1428428_640.jpg" />
+    <Content Include="Habib\Images\Screenshot 2025-02-01 170355.png" />
+    <Content Include="Habib\Images\Screenshot_2025-01-31_020111-removebg-preview.png" />
+    <Content Include="Habib\Images\Screenshot_2025-01-31_020111.png" />
+    <Content Include="Habib\Images\teacup-7526022_1280.jpg" />
+    <Content Include="Habib\Images\woman %283%29.png" />
+    <Content Include="Habib\Images\_Some books are so familiar that reading them is like returning home again__ Jo March, Little Women.jpg" />
+    <Content Include="Habib\img\testimonial-1.jpg" />
+    <Content Include="Habib\img\testimonial-2.jpg" />
+    <Content Include="Habib\img\testimonial-3.jpg" />
+    <Content Include="Habib\img\testimonial-4.jpg" />
+    <Content Include="Habib\jojo.js" />
+    <Content Include="Habib\js\bootstrap.min.js" />
+    <Content Include="Habib\js\custom.js" />
+    <Content Include="Habib\js\jquery.easing-1.3.js" />
+    <Content Include="Habib\js\jquery.js" />
+    <Content Include="Habib\js\jquery.parallax.js" />
+    <Content Include="Habib\js\nivo-lightbox.min.js" />
+    <Content Include="Habib\js\owl.carousel.min.js" />
+    <Content Include="Habib\js\plugins.js" />
+    <Content Include="Habib\js\smoothscroll.js" />
+    <Content Include="Habib\js\wow.min.js" />
+    <Content Include="Habib\owl.carousel.min.css" />
+    <Content Include="Habib\owl.carousel.min.js" />
+    <Content Include="Habib\Rooms.txt" />
+    <Content Include="Habib\why.js" />
+    <Content Include="Habib\wow.js" />
+    <Content Include="loggedinuser.txt" />
+    <Content Include="Mona\AdminBooks.aspx" />
+    <Content Include="Mona\img\logo1.png" />
+    <Content Include="Mona\intro.aspx" />
+    <Content Include="Mona\StudentsBooks.aspx" />
+    <Content Include="Hani\AddRoom.aspx" />
+    <Content Include="Hani\AdminRooms.aspx" />
+    <Content Include="Hani\EditRoom.aspx" />
+    <Content Include="Hani\Requests.aspx" />
+    <Content Include="Hani\Reservations.txt" />
+    <Content Include="Hani\Rooms.aspx" />
+    <Content Include="Mona\Mona1.aspx" />
+    <Content Include="Sajeda\Books.aspx" />
+    <Content Include="Sajeda\editProfile.aspx" />
+    <Content Include="Sajeda\img\img1.png" />
+    <Content Include="Sajeda\img\img2.png" />
+    <Content Include="Sajeda\Profile.aspx" />
+    <Content Include="Sajeda\resetPassword.aspx" />
+    <Content Include="Sajeda\rooms.aspx" />
+    <Content Include="Sajeda\sajeda1.aspx" />
+    <Content Include="Sajeda\updateImg.aspx" />
+    <Content Include="Suhaib\Loginpage.aspx" />
+    <Content Include="Suhaib\registration.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Habib\AboutPage.aspx.cs">
+      <DependentUpon>AboutPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Habib\AboutPage.aspx.designer.cs">
+      <DependentUpon>AboutPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Habib\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Habib\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Habib\Habib1.aspx.cs">
+      <DependentUpon>Habib1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Habib\Habib1.aspx.designer.cs">
+      <DependentUpon>Habib1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Habib\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Habib\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hani\AddRoom.aspx.cs">
+      <DependentUpon>AddRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hani\AddRoom.aspx.designer.cs">
+      <DependentUpon>AddRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hani\AdminRooms.aspx.cs">
+      <DependentUpon>AdminRooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hani\AdminRooms.aspx.designer.cs">
+      <DependentUpon>AdminRooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hani\EditRoom.aspx.cs">
+      <DependentUpon>EditRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hani\EditRoom.aspx.designer.cs">
+      <DependentUpon>EditRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hani\Requests.aspx.cs">
+      <DependentUpon>Requests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hani\Requests.aspx.designer.cs">
+      <DependentUpon>Requests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hani\Rooms.aspx.cs">
+      <DependentUpon>Rooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hani\Rooms.aspx.designer.cs">
+      <DependentUpon>Rooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mona\AdminBooks.aspx.cs">
+      <DependentUpon>AdminBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mona\AdminBooks.aspx.designer.cs">
+      <DependentUpon>AdminBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mona\intro.aspx.cs">
+      <DependentUpon>intro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mona\intro.aspx.designer.cs">
+      <DependentUpon>intro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mona\StudentsBooks.aspx.cs">
+      <DependentUpon>StudentsBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mona\StudentsBooks.aspx.designer.cs">
+      <DependentUpon>StudentsBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sajeda\Books.aspx.cs">
+      <DependentUpon>Books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sajeda\Books.aspx.designer.cs">
+      <DependentUpon>Books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sajeda\editProfile.aspx.cs">
+      <DependentUpon>editProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sajeda\editProfile.aspx.designer.cs">
+      <DependentUpon>editProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sajeda\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sajeda\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sajeda\resetPassword.aspx.cs">
+      <DependentUpon>resetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sajeda\resetPassword.aspx.designer.cs">
+      <DependentUpon>resetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sajeda\rooms.aspx.cs">
+      <DependentUpon>rooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sajeda\rooms.aspx.designer.cs">
+      <DependentUpon>rooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sajeda\sajeda1.aspx.cs">
+      <DependentUpon>sajeda1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sajeda\sajeda1.aspx.designer.cs">
+      <DependentUpon>sajeda1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sajeda\updateImg.aspx.cs">
+      <DependentUpon>updateImg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sajeda\updateImg.aspx.designer.cs">
+      <DependentUpon>updateImg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suhaib\Loginpage.aspx.cs">
+      <DependentUpon>Loginpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Suhaib\Loginpage.aspx.designer.cs">
+      <DependentUpon>Loginpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suhaib\registration.aspx.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Suhaib\registration.aspx.designer.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Habib\fonts\.DS_Store" />
+    <Content Include="Habib\fonts\et-line.eot" />
+    <Content Include="Habib\fonts\et-line.ttf" />
+    <Content Include="Habib\fonts\et-line.woff" />
+    <Content Include="Habib\fonts\fontawesome-webfont.eot" />
+    <Content Include="Habib\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Habib\fonts\fontawesome-webfont.woff" />
+    <Content Include="Habib\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Habib\fonts\FontAwesome.otf" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hani\RoomsImages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53273</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44380/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

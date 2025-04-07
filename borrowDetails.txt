@@ -1,0 +1,10 @@
+101,Introduction to Algorithms,Thomas H. Cormen,2025-02-04,2025-02-20,Request Approved
+109,The Pragmatic Programmer,Andrew Hunt,2025-02-06,2025-02-14,Request Approved
+108,The Drifter Chronicles,Greg Caye,2025-02-06,2025-02-19,Request Approved
+106,The Sun and Her Flowers,Rupi Kaur,2025-03-12,2025-03-15,Request Rejected
+105,The Trumpet of the Swan,E.B. White,2025-03-12,2025-03-19,Request Approved
+101,All The Young Dudes,MsKingBean89,2025-03-15,2025-03-27,Request Approved
+103,Harry Potter and the Sorcerer’s Stone,J.K. Rowling,2025-03-15,2025-03-31,Request Rejected
+102,The Hunger Games,Suzanne Collins,2025-03-14,2025-03-27,Request Rejected
+104,Under Milk Wood,Dylan Thomas,2025-03-14,2025-04-02,Request Rejected
+107,20000 Leagues Under the Sea,Jules Verne,2025-03-16,2025-03-31,Request Approved

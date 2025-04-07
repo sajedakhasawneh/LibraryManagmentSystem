@@ -1,0 +1,9 @@
+101,All The Young Dudes,MsKingBean89,A popular fanfiction novel,Available,img/1099.jpg
+102,The Hunger Games,Suzanne Collins,A dystopian survival story,Available,img/1077.jpg
+103,Harry Potter and the Sorcerer’s Stone,J.K. Rowling,The beginning of the famous series,Available,img/1088.jpg
+104,Under Milk Wood,Dylan Thomas,A poetic radio drama,Available,img/14.jpg
+105,The Trumpet of the Swan,E.B. White,A children's novel about a swan,Available,img/15.jpg
+106,The Sun and Her Flowers,Rupi Kaur,A poetry collection,Available,img/16.jpg
+107,20000 Leagues Under the Sea,Jules Verne,A famous science fiction story,Available,img/13.jpg
+108,The Drifter Chronicles,Greg Caye,A modern adventure novel,Available,img/1022.jpg
+109,Anna Karenina,Leo Tolstoy,A classic Russian novel,Available,img/12.jpg

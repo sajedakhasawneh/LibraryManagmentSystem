@@ -1,0 +1,8 @@
+1|Conference Room|10|A professional space for meetings, presentations, and discussions. Equipped with a projector and conference table.|~/Uploads/4cfc41d1-f60d-47ec-ac85-d0d08f5016dd.jpg|Available
+2|Executive Suite|5|A high-end office space for executives, featuring luxury furnishings and a private meeting area.|~/Uploads/0f8afab7-4360-4c1b-a99d-09231b7c2556.jpg|Available
+4|Coworking Space|20|A shared working environment designed for freelancers and remote workers, with flexible seating and high-speed internet.|~/Uploads/83aaaf15-6ad4-4187-9c5d-a46bfad188c4.jpg|Available
+5|Break Room|8|A casual relaxation area for employees, featuring coffee machines, vending machines, and comfortable seating.|~/Uploads/a3fadedb-9817-4034-b8f5-99282c357372.jpg|Available
+6|Private Room|5|A climate-controlled room housing servers, networking equipment, and IT infrastructure.|~/Uploads/59e1cd0b-e49f-4401-acd3-0cf8716bc169.jpg|Available
+7|Double Study Room|2|A quiet and organized space designed for two students or professionals to study efficiently.|~/Uploads/4bb0bccc-a6c0-4b74-8b22-15becc01dfcd.jpg|Available
+8|Lecture Hall|100|A large space for academic lectures, presentations, and conferences, featuring tiered seating and audiovisual equipment.|~/Uploads/6c85105b-644e-48e5-9ba0-793cb9921806.jpg|Available
+9|Lounge Room|4|A comfortable space with sofas and entertainment options for informal meetings and social gatherings.|~/Uploads/9bf8cf10-172f-49df-9fda-da8ac43f97e6.jpg|Available
